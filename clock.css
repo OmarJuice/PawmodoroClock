@@ -1,0 +1,63 @@
+html{
+    background-color: steelblue;
+    height: 100%;
+    margin: 0;
+}
+body{
+    height: 100%;
+    background-image: url(https://techflourish.com/images/cat-ears-and-whiskers-clipart.png);
+    background-repeat: no-repeat;
+    background-position-x: 60%;
+    background-position-y: 50%;
+}
+#cat{
+    height: 40px;
+    width: auto;
+}
+.yatra{
+    font-family: 'Yatra One', sans-serif;
+    color: black;
+}
+.allerta{
+    font-family: 'Allerta Stencil', sans-serif;
+    color: black
+}
+.heavy{
+    font-weight: bold;
+}
+#breakLength, #sessionLength{
+    margin: 0;
+}
+.box{
+    background-color: steelblue;
+    border: 15px solid pink;
+    border-radius: 50%;
+}
+.section{
+    margin-bottom: -5%;
+}
+
+.arrow{
+    color: pink;
+}
+#timer{
+    font-size: 60px;
+}
+.icon{
+    margin: 20px 30px;
+}
+.timerButton{
+    color: rgb(30, 30, 30);
+    transition: all 1s;
+}
+.timerButton:hover{
+    color: pink
+}
+
+@media only screen and (max-width: 1024px){
+    body{
+        background-size: 120%;
+    }
+    
+}
+
